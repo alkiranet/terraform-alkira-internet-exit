@@ -12,7 +12,7 @@ This connector allows traffic from various clouds, sites, and users to _egress_ 
 
 ```hcl
 module "inet_exit" {
-  source = "alkiranet/internet-exit/alkira
+  source = "alkiranet/internet-exit/alkira"
 
   name         = "inet-east"
   cxp          = "US-EAST-2"
