@@ -8,7 +8,7 @@ This module makes it easy to provision an [Internet Exit](https://registry.terra
 - Provide additional options for customization
 
 ## Example Usage
-This connector allows traffic from various clouds, sites, and users to _egress_ to the internet. The number of public IP addresses can be adjusted to accommodate heavier traffic flows. In addition, adding the **traffic_dist_attribute = "SRC_IP"** allows for traffic exiting the _CXP_ to be based on source IP address only.
+This connector allows traffic from various clouds, sites, and users to _egress_ to the internet. The number of public IP addresses can be adjusted to accommodate heavier traffic flows and adding **traffic_dist_attribute = "SRC_IP"** allows for traffic exiting the _CXP_ to be based on source IP address only.
 
 ```hcl
 module "inet_exit" {
